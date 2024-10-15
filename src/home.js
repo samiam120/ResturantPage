@@ -1,5 +1,6 @@
 export function homeContent() {
   const content = document.querySelector("#content");
+  content.textContent = "";
 
   const left = homeText();
   const right = homeImg();

@@ -1,5 +1,6 @@
 export function menu() {
   const content = document.querySelector("#content");
+  content.textContent = "";
   const menu = document.createElement("div");
   menu.classList.add("menu");
 
