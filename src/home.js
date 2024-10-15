@@ -1,6 +1,6 @@
 export function homeContent() {
   const content = document.querySelector("#content");
-  content.textContent = "";
+  content.textContent = ""
 
   const left = homeText();
   const right = homeImg();
@@ -15,8 +15,7 @@ function homeText() {
 
   const p1 = document.createElement("p");
   const p2 = document.createElement("p");
-  p1.textContent = "lorem";
-  p2.textContent = "second Lorem";
+  p1.textContent = "Welcome to Wine & Dine !";
 
   leftSide.append(p1, p2);
   return leftSide;
