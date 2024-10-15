@@ -64,6 +64,10 @@ nav h1 {
   border: 1px solid white;
 }
 
+#content h1 {
+  color: white;
+}
+
 .left-side {
   align-self: flex-start;
   width: 50%;
@@ -78,9 +82,39 @@ nav h1 {
 }
 
 .left-side p {
+  text-align: center;
+}
+
+.left-side p,
+li {
   letter-spacing: var(--letter-spacing);
   text-shadow: 1px 1px 2px black;
   color: white;
-  text-align: center;
   font-size: 1.5rem;
+}
+
+/*MENU STYLES */
+
+.menu {
+  padding: 100px;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+li {
+    position: relative;
+    left: 10px;
+}
+
+.entrees, .appetizers, .salads, .desserts{
+    align-self:flex-start;
+    position: relative;
+    left: 100px;
 }
